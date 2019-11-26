@@ -1,0 +1,15 @@
+{
+  "name": "docker-instagram",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Felipe Weiduschadt de Carvalho",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "instagram-scraping": "^1.0.11",
+    "nodemon": "^2.0.1"
+  }
+}
